@@ -22,12 +22,13 @@ p {
 
 p {
   line-height: 1.4;
-  text-align: justify;
 }
 
 .page-header,
 .hero,
-.information {
+.information,
+.quote,
+.contact {
   padding: 0 256px;
 }
 
@@ -52,7 +53,7 @@ button,
   color: #F9FAF8;
 }
 
-button,
+
 .logo {
   font-size: 24px;
 }
@@ -78,9 +79,9 @@ button,
   flex: auto;
 }
 
-.nav-list a,
-.hero p,
-.information-block p {
+p,
+button,
+.nav-list a {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -148,7 +149,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 
 .information-block img {
@@ -161,4 +161,31 @@ button {
 .information-block p {
   color: rgba(31, 41, 55, 0.7);
   text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+
+.quote-block p {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.quote .writer {
+  font-size: 30px;
+  align-self: flex-end;
 }
