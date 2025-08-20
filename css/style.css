@@ -211,6 +211,10 @@ button {
   border-radius: 15px;
 }
 
+.contact-block .content p {
+  margin: 0;
+}
+
 .contact-block h2 {
   color: #F9FAF8
 }
