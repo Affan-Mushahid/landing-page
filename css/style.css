@@ -14,22 +14,51 @@ html {
   margin: 0;
 }
 
-.page-header {
+h1,
+h2,
+p {
+  margin-bottom: 16px;
+}
+
+p {
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.page-header,
+.hero {
+  padding: 0 256px;
   background-color: #1F2937;
+}
+
+.page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 26px;
-  padding: 26px 256px;
+  padding-top: 26px;
+}
+
+button,
+.logo,
+.hero h1 {
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+button,
+.logo {
+  font-size: 24px;
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: 900;
   text-decoration: none;
   text-align: center;
-  color: #F9FAF8;
+}
+
+.hero h1 {
+  font-size: 48px;
 }
 
 .nav-list {
@@ -44,8 +73,42 @@ html {
   flex: auto;
 }
 
-.navigation a {
+.nav-list a,
+.hero p {
   font-size: 18px;
-  text-decoration: none;
   color: #E5E7EB;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.hero img,
+.left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero img {
+  height: auto;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  padding: 10px 20px;
+  border: none;
 }
