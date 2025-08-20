@@ -27,12 +27,14 @@ p {
 .hero,
 .information,
 .quote,
-.contact {
+.contact,
+.page-footer {
   padding: 0 256px;
 }
 
 .page-header,
-.hero {
+.hero,
+.page-footer {
   background-color: #1F2937;
 }
 
@@ -47,7 +49,8 @@ p {
 
 p,
 button,
-.nav-list a {
+.nav-list a,
+.page-footer {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -216,4 +219,12 @@ button {
   background-color: inherit;
   border: 3px solid white;
   padding: 10px 30px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
