@@ -15,7 +15,6 @@ html {
 }
 
 h1,
-h2,
 p {
   margin-bottom: 16px;
 }
@@ -44,6 +43,13 @@ p {
   flex-wrap: wrap;
   gap: 26px;
   padding-top: 26px;
+}
+
+p,
+button,
+.nav-list a {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 button,
@@ -77,13 +83,6 @@ button,
 
 .nav-list > * {
   flex: auto;
-}
-
-p,
-button,
-.nav-list a {
-  font-size: 18px;
-  color: #E5E7EB;
 }
 
 .nav-list a {
@@ -188,4 +187,33 @@ button {
 .quote .writer {
   font-size: 30px;
   align-self: flex-end;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.contact-block {
+  background-color: #3882f6;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 64px 100px;
+  border-radius: 15px;
+}
+
+.contact-block h2 {
+  color: #F9FAF8
+}
+
+.contact-block button {
+  background-color: inherit;
+  border: 3px solid white;
+  padding: 10px 30px;
 }
